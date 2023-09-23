@@ -1,0 +1,54 @@
+body{
+    padding: 5px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main {
+    border : 1px solid #333;
+    padding: 5px 10px;
+}
+header{
+    font-size: 20px;
+    background-color: #ddd;
+    padding:  5px 0;
+    border: 1px solid #333;
+
+
+}
+.header > h1 {
+    text-transform: uppercase;
+}
+.container{
+    margin:  5px 0;
+    display: flex;
+    gap: 5px
+}
+.ul{
+    list-style: none;
+}
+.header-menu {
+    text-align: center;
+}
+.container > .list {
+    border : 1px solid #333;
+    background-color: #dcdc7b;
+    padding:  5px 10px;
+
+}
+table  td{
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.container .content {
+    border : 1px solid #333;
+    flex: 1 1;
+    padding: 5px 10px;
+}
+footer{
+    background-color: #ddd;
+    border : 1px solid #333;
+    padding: 5px;
+}

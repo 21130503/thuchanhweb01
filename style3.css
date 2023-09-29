@@ -36,7 +36,7 @@ header{
 }
 .list{
     list-style: none;
-    /*flex-wrap: nowrap;*/
+    flex-wrap: wrap;
     display: flex;
     gap: 20px;
 }
